@@ -1,0 +1,87 @@
+{
+  "version": "202510",
+  "source": "中国软件行业基准数据CSBMK及BSCEA模板",
+  "default_city": "北京",
+  "cities": {
+    "北京": {
+      "dev_rate": 3.2198,
+      "ops_rate": 2.6335,
+      "note": "北京地区指导价"
+    },
+    "上海": {
+      "dev_rate": 3.15,
+      "ops_rate": 2.58,
+      "note": "上海地区指导价"
+    },
+    "广州": {
+      "dev_rate": 2.98,
+      "ops_rate": 2.45,
+      "note": "广州地区指导价"
+    },
+    "深圳": {
+      "dev_rate": 3.1,
+      "ops_rate": 2.52,
+      "note": "深圳地区指导价"
+    },
+    "杭州": {
+      "dev_rate": 2.95,
+      "ops_rate": 2.42,
+      "note": "杭州地区指导价"
+    },
+    "成都": {
+      "dev_rate": 2.45,
+      "ops_rate": 2.1,
+      "note": "成都地区指导价"
+    },
+    "武汉": {
+      "dev_rate": 2.38,
+      "ops_rate": 2.05,
+      "note": "武汉地区指导价"
+    },
+    "南京": {
+      "dev_rate": 2.85,
+      "ops_rate": 2.35,
+      "note": "南京地区指导价"
+    },
+    "西安": {
+      "dev_rate": 2.32,
+      "ops_rate": 2.0,
+      "note": "西安地区指导价"
+    },
+    "长沙": {
+      "dev_rate": 2.28,
+      "ops_rate": 1.95,
+      "note": "长沙地区指导价"
+    },
+    "郑州": {
+      "dev_rate": 2.25,
+      "ops_rate": 1.92,
+      "note": "郑州地区指导价"
+    },
+    "济南": {
+      "dev_rate": 2.42,
+      "ops_rate": 2.08,
+      "note": "济南地区指导价"
+    },
+    "合肥": {
+      "dev_rate": 2.35,
+      "ops_rate": 2.02,
+      "note": "合肥地区指导价"
+    },
+    "重庆": {
+      "dev_rate": 2.4,
+      "ops_rate": 2.06,
+      "note": "重庆地区指导价"
+    },
+    "天津": {
+      "dev_rate": 2.68,
+      "ops_rate": 2.25,
+      "note": "天津地区指导价"
+    },
+    "其他": {
+      "dev_rate": 2.2,
+      "ops_rate": 1.9,
+      "note": "其他地区参考价"
+    }
+  }
+}

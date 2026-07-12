@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+backend/exports/
+uploads/
+*.db
+*.sqlite3
+*.xlsx
+*.zip
+*.docx
+
+# Environment
+.env
+*.env.local

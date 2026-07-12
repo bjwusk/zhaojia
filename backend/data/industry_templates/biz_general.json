@@ -1,0 +1,81 @@
+{
+  "name": "通用业务系统",
+  "desc": "企业管理/ERP/OA/通用业务系统模板",
+  "modules": [
+    {
+      "name": "组织管理",
+      "items": [
+        {
+          "name": "部门管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "组织机构树维护"
+        },
+        {
+          "name": "岗位管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "岗位设置与编制"
+        },
+        {
+          "name": "人员信息",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "人员基本信息档案"
+        }
+      ]
+    },
+    {
+      "name": "流程管理",
+      "items": [
+        {
+          "name": "流程定义",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "业务流程模板配置"
+        },
+        {
+          "name": "流程发起",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "业务流程启动"
+        },
+        {
+          "name": "待办处理",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "待办事项审批处理"
+        },
+        {
+          "name": "流程监控",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "流程状态监控跟踪"
+        }
+      ]
+    },
+    {
+      "name": "报表中心",
+      "items": [
+        {
+          "name": "报表配置",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "自定义报表配置"
+        },
+        {
+          "name": "报表生成",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "数据报表生成导出"
+        },
+        {
+          "name": "看板展示",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "数据可视化看板"
+        }
+      ]
+    }
+  ]
+}

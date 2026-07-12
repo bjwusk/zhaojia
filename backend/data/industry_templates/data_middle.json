@@ -1,0 +1,110 @@
+{
+  "name": "数据中台",
+  "desc": "大数据平台/数据中台/数据治理平台模板",
+  "modules": [
+    {
+      "name": "数据接入",
+      "items": [
+        {
+          "name": "数据源管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "多源数据源注册管理"
+        },
+        {
+          "name": "数据采集",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "批量/实时数据采集"
+        },
+        {
+          "name": "数据接口",
+          "category": "EIF",
+          "ufp": 7,
+          "desc": "外部数据接口对接"
+        }
+      ]
+    },
+    {
+      "name": "数据治理",
+      "items": [
+        {
+          "name": "数据标准管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "数据标准/字典管理"
+        },
+        {
+          "name": "数据质量",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "质量规则与稽核"
+        },
+        {
+          "name": "数据清洗",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "数据清洗转换处理"
+        },
+        {
+          "name": "元数据管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "元数据采集与血缘"
+        }
+      ]
+    },
+    {
+      "name": "数据服务",
+      "items": [
+        {
+          "name": "数据API管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "API网关/注册发布"
+        },
+        {
+          "name": "数据查询",
+          "category": "EQ",
+          "ufp": 4,
+          "desc": "数据多维查询"
+        },
+        {
+          "name": "数据报表",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "数据分析报表"
+        },
+        {
+          "name": "数据可视化",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "大屏/图表可视化"
+        }
+      ]
+    },
+    {
+      "name": "数据存储",
+      "items": [
+        {
+          "name": "数据仓库",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "分层数据仓库管理"
+        },
+        {
+          "name": "数据备份",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "数据备份恢复管理"
+        },
+        {
+          "name": "数据归档",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "数据生命周期归档"
+        }
+      ]
+    }
+  ]
+}
