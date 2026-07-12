@@ -14,4 +14,4 @@ if __name__ == '__main__':
     print(f'  数据目录: {os.path.join(base, "instance")}')
     print(f'  导出目录: {os.path.join(base, "exports")}')
     print()
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host='0.0.0.0', port=port, debug=False)
