@@ -1,4 +1,4 @@
-import os
+﻿import os
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
@@ -49,7 +49,7 @@ def create_app():
         return jsonify({'code': code, 'message': msg}), code
 
     # 生产环境下服务静态文件（Vue 构建输出）
-    frontend_dist = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'frontend', 'dist')
+    frontend_dist = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'frontend', 'dist')
     if os.path.exists(frontend_dist):
         from flask import send_from_directory
         @app.route('/', defaults={'path': ''})
