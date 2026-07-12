@@ -1,0 +1,122 @@
+{
+  "name": "政务平台",
+  "desc": "电子政务/数字政府/政务服务平台模板",
+  "modules": [
+    {
+      "name": "用户管理",
+      "items": [
+        {
+          "name": "用户注册",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "政务用户注册及实名认证"
+        },
+        {
+          "name": "用户登录",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "账号密码/CA证书/扫码登录"
+        },
+        {
+          "name": "用户信息管理",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "用户信息维护修改"
+        },
+        {
+          "name": "权限管理",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "角色权限配置管理"
+        },
+        {
+          "name": "用户查询",
+          "category": "EQ",
+          "ufp": 4,
+          "desc": "用户信息查询检索"
+        }
+      ]
+    },
+    {
+      "name": "事项审批",
+      "items": [
+        {
+          "name": "事项申请",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "审批事项在线申请"
+        },
+        {
+          "name": "审批流转",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "多级审批流程处理"
+        },
+        {
+          "name": "审批查询",
+          "category": "EQ",
+          "ufp": 4,
+          "desc": "审批进度查询跟踪"
+        },
+        {
+          "name": "审批统计",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "审批数据统计分析报表"
+        }
+      ]
+    },
+    {
+      "name": "公文管理",
+      "items": [
+        {
+          "name": "收文管理",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "外部收文登记处理"
+        },
+        {
+          "name": "发文管理",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "内部发文审批印发"
+        },
+        {
+          "name": "公文归档",
+          "category": "ILF",
+          "ufp": 10,
+          "desc": "公文电子归档管理"
+        },
+        {
+          "name": "公文查询",
+          "category": "EQ",
+          "ufp": 4,
+          "desc": "公文检索查阅"
+        }
+      ]
+    },
+    {
+      "name": "数据对接",
+      "items": [
+        {
+          "name": "数据交换接口",
+          "category": "EIF",
+          "ufp": 7,
+          "desc": "与上级/平级单位数据交换"
+        },
+        {
+          "name": "数据上报",
+          "category": "EO",
+          "ufp": 5,
+          "desc": "定期数据上报生成"
+        },
+        {
+          "name": "数据同步",
+          "category": "EI",
+          "ufp": 4,
+          "desc": "跨系统数据同步处理"
+        }
+      ]
+    }
+  ]
+}

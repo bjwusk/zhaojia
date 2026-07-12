@@ -1,0 +1,260 @@
+{
+  "version": "1.0",
+  "source": "BSCEA软件运维费用评估模板(20251030发布版)",
+  "ufp_weights": {
+    "estimated": {
+      "ILF": 35,
+      "EIF": 15,
+      "EI": 4,
+      "EO": 5,
+      "EQ": 4
+    },
+    "detailed": {
+      "ILF": 10,
+      "EIF": 7,
+      "EI": 4,
+      "EO": 5,
+      "EQ": 4
+    }
+  },
+  "reuse_coefficients": {
+    "high": 0.333333333333333,
+    "medium": 0.666666666666667,
+    "low": 1.0
+  },
+  "modification_type": {
+    "new": 1.0,
+    "modify": 0.8,
+    "delete": 0.2
+  },
+  "ops_adjustment_factors": {
+    "business_importance": {
+      "desc": "业务重要性",
+      "options": [
+        {
+          "name": "周边",
+          "factor": 0.9
+        },
+        {
+          "name": "一般",
+          "factor": 1.0
+        },
+        {
+          "name": "核心",
+          "factor": 1.1
+        }
+      ]
+    },
+    "update_frequency": {
+      "desc": "更新频率",
+      "options": [
+        {
+          "name": "平均每季度1次或以下",
+          "factor": 0.78
+        },
+        {
+          "name": "平均每月1次或以下",
+          "factor": 1.0
+        },
+        {
+          "name": "超过每月1次",
+          "factor": 1.12
+        }
+      ]
+    },
+    "support_mode": {
+      "desc": "技术支持方式",
+      "options": [
+        {
+          "name": "非现场支持为主",
+          "factor": 0.9
+        },
+        {
+          "name": "现场支持为主",
+          "factor": 1.0
+        },
+        {
+          "name": "纯现场支持",
+          "factor": 1.2
+        }
+      ]
+    },
+    "security_level": {
+      "desc": "安全等级",
+      "options": [
+        {
+          "name": "第一级",
+          "factor": 0.9
+        },
+        {
+          "name": "第二级",
+          "factor": 0.95
+        },
+        {
+          "name": "第三级",
+          "factor": 1.0
+        },
+        {
+          "name": "第四级",
+          "factor": 1.05
+        },
+        {
+          "name": "第五级",
+          "factor": 1.1
+        }
+      ]
+    },
+    "response_time": {
+      "desc": "响应时效",
+      "options": [
+        {
+          "name": "一级故障处理时间小于72h",
+          "factor": 0.9
+        },
+        {
+          "name": "一级故障处理时间小于48h",
+          "factor": 1.0
+        },
+        {
+          "name": "一级故障处理时间小于24h",
+          "factor": 1.1
+        }
+      ]
+    },
+    "integrity_level": {
+      "desc": "软件完整性级别",
+      "options": [
+        {
+          "name": "C/D级别或无明确完整性级别",
+          "factor": 1.0
+        },
+        {
+          "name": "A/B级别有特殊设计",
+          "factor": 1.1
+        },
+        {
+          "name": "A级别全生命周期措施",
+          "factor": 1.3
+        }
+      ]
+    },
+    "deploy_mode": {
+      "desc": "部署方式",
+      "options": [
+        {
+          "name": "集中式",
+          "factor": 1.0
+        },
+        {
+          "name": "分布式",
+          "factor": 1.06
+        }
+      ]
+    },
+    "user_scale": {
+      "desc": "用户规模",
+      "options": [
+        {
+          "name": "小于等于1000",
+          "factor": 0.93
+        },
+        {
+          "name": "小于等于10000",
+          "factor": 1.0
+        },
+        {
+          "name": "超过10000",
+          "factor": 1.12
+        }
+      ]
+    },
+    "system_correlation": {
+      "desc": "系统关联性",
+      "options": [
+        {
+          "name": "无",
+          "factor": 0.97
+        },
+        {
+          "name": "1-5个系统",
+          "factor": 1.0
+        },
+        {
+          "name": "6个及以上",
+          "factor": 1.14
+        }
+      ]
+    },
+    "team_experience": {
+      "desc": "运维团队经验",
+      "options": [
+        {
+          "name": "为本行业做过类似的项目",
+          "factor": 0.8
+        },
+        {
+          "name": "为其他行业做过类似的项目，或为本行业做过不同但相关的项目",
+          "factor": 1.0
+        },
+        {
+          "name": "没有同类项目的背景",
+          "factor": 1.2
+        }
+      ]
+    },
+    "confidential": {
+      "desc": "是否涉密",
+      "options": [
+        {
+          "name": "非涉密",
+          "factor": 1.0
+        },
+        {
+          "name": "涉密",
+          "factor": 1.18
+        }
+      ]
+    }
+  },
+  "ops_rate_method": {
+    "rates": {
+      "P10": 0.0226,
+      "P25": 0.0517,
+      "P50": 0.0902,
+      "P75": 0.1448,
+      "P90": 0.2553
+    },
+    "default_percentile": "P50"
+  },
+  "software_level": {
+    "轻量级": 0.9,
+    "中级": 1.0,
+    "重量级": 1.05
+  },
+  "pdr": {
+    "median": 0.74,
+    "lower": 0.592,
+    "upper": 0.888
+  },
+  "person_month_hours": 174,
+  "workday_hours": 8,
+  "scale_change_factors": {
+    "early_stage": 1.39,
+    "mid_stage": 1.21,
+    "late_stage": 1.1,
+    "completed": 1.0
+  },
+  "industries": [
+    "政务",
+    "金融",
+    "交通",
+    "能源",
+    "工业软件",
+    "通信",
+    "医疗",
+    "教育",
+    "嵌入式",
+    "AI/大模型",
+    "通用"
+  ]
+}

@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: zhaojia
+    runtime: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: cd backend && python run.py
+    healthCheckPath: /api/project
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.0
+      - key: FLASK_ENV
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+    disk:
+      name: zhaojia-data
+      mountPath: /opt/render/project/src/uploads
+      sizeGB: 1
