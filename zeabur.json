@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "python",
+    "buildCommand": "pip install -r backend/requirements.txt"
+  },
+  "deploy": {
+    "startCommand": "cd backend && python run.py",
+    "port": 5000,
+    "healthCheckPath": "/api/project"
+  }
+}
